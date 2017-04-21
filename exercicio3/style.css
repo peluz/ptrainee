@@ -1,0 +1,25 @@
+table, th, td {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+
+td {
+	color: red;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+.space {
+	height: 5px;
+}
+
+.allblack > td {
+	color: black;
+}
+
+.black > td:first-child {
+	color: black;
+}
