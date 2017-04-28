@@ -1,0 +1,59 @@
+.circle {
+	width: 500px;
+	height: 500px;
+	border-radius: 250px;
+	background-color: yellow;
+	margin: auto;
+}
+
+.speech {
+	border: solid 5px black;
+	width: 100px;
+	height: 70px;
+	font-size: x-large;
+	padding: 5px;
+	position: absolute;
+	top: 50px;
+	right: 250px;
+	visibility: hidden;
+	border-radius: 10px;
+}
+
+.circle:hover .mouth{
+	height: 100px;
+	top: 300px;
+	background-color: red;
+	border: 5px solid black;
+	border-radius: 50px;
+}
+
+
+.eye {
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	background-color: black;
+}
+
+.mouth {
+	width: 200px;
+	height: 10px;
+	background-color: black;
+	border-radius: 10px;
+	position: relative;
+	top: 350px;
+	left: 150px;
+}
+
+
+#eye1 {
+	position: absolute;
+	top: 130px;
+	left: 500px;
+}
+
+#eye2 {
+	position: absolute;
+	top: 130px;
+	left: 750px;
+}
