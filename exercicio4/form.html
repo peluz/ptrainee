@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Formulário</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Formulário</h1>
+	<form action="form.html" method="post">
+		<label for="nome">Nome:</label>
+		<input type="text" name="nome" placeholder="Nome">
+		<br>
+		<label for="email">Email:</label>
+		<input type="email" name="email" placeholder="email">
+		<br>
+		<label for="senha">Senha:</label>
+		<input type="password" name="senha" placeholder="Senha">
+		<br>
+		<div class="space"></div>
+		<label for="sexo">Sexo:</label>
+		<br>
+		<input type="radio" name="sexo" value="masculino">
+		<label for="sexo">Masculino</label>
+		<br>
+		<input type="radio" name="sexo" value="feminino">
+		<label for="sexo">Feminino</label>
+		<br>
+		<div class="space"></div>
+		<label>Tecnologias:</label>
+		<br>
+		<input type="checkbox" name="tecnologia" value="html">
+		<label>HTML</label>
+		<br>
+		<input type="checkbox" name="tecnologia" value="css">
+		<label>CSS</label>
+		<br>
+		<input type="checkbox" name="tecnologia" value="java">
+		<label>Java</label>
+		<br>
+		<input type="checkbox" name="tecnologia" value="php">
+		<label>PHP</label>
+		<br>
+		<div class="space"></div>
+		<label>Descrição Pessoal:</label>
+		<br>
+		<textarea name="descricao" placeholder="Digite aqui..."></textarea>
+		<div class="space"></div>
+		<br>
+		<label for="opcao">Opção:</label>
+		<select name="opcao">
+			<option></option>
+			<option value="1">Opção 1</option>
+			<option value="2">Opção 2</option>
+		</select>
+		<br>
+		<div class="space"></div>
+		<input type="submit" value="Enviar">
+		<br>
+		<input type="reset" value="Limpar">
+	</form>
+</body>
+</html>

@@ -1,0 +1,27 @@
+.image{
+	width: 25%;
+	padding: 10px;
+
+}
+
+.image img{ 
+      width:100%; 
+      height:auto;
+}
+
+
+table {
+	border-collapse: collapse;
+}
+
+table, td, tr {
+	border: 1px solid black;
+}
+
+body {
+	text-align: justify;
+}
+
+th {
+	text-align: center;
+}

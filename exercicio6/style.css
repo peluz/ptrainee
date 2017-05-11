@@ -1,0 +1,55 @@
+body {
+	color: white;
+	background-color: silver;
+	font-family: "Times New Roman", times, serif;
+}
+
+h2, h3	{
+	color: black;
+}
+
+.site, .container, .element, .noticia {
+	padding: 10px;
+	margin: 5px;
+	border-radius: 5px;
+}
+
+
+.site {
+	background-color: blue;
+	width: 75%;
+	margin: auto;
+}	
+
+.container {
+	background-color: darkblue;
+}
+
+.element {
+	background-color: silver;
+}
+
+.noticia {
+	background-color: lightslategrey;
+}
+
+.noticia  span {
+	color: black;
+	font-size: smaller;
+}
+
+table, tr, td {
+	color: black;
+	border: 3px double black;
+	padding: 10px;
+	border-collapse: collapse;
+}
+
+thead {
+	font-weight: bold;
+}
+
+#copyrighter span{
+	font-size: smaller;
+	color: black;
+}
