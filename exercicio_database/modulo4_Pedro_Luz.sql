@@ -254,3 +254,12 @@ HAVING avg(horas) > 20;
 -- 20 Obter os nomes de projetos correspondentes à consulta anterior.
 --   Usar a consulta anterior como uma consulta aninhada à nova consulta.
 --   Dica: use AS para evitar ambigüidades de nomes entre as consultas.
+
+SELECT titulo
+FROM empresa.projeto
+INNER JOIN
+  (SELECT codproj
+  FROM empresa.trabalhaem
+  GROUP BY codproj
+  HAVING avg(horas) > 20) AS resposta
+  ON projeto.codproj = resposta.codproj;
